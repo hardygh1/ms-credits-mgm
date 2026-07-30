@@ -20,10 +20,7 @@ import org.hibernate.annotations.CreationTimestamp;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "clientes", indexes = {
-        @Index(name = "idx_cliente_numero_documento", columnList = "numero_documento"),
-        @Index(name = "idx_cliente_nombre", columnList = "nombres")
-})
+@Table(name = "clientes")
 @Getter
 @Setter
 @NoArgsConstructor

@@ -18,9 +18,7 @@ import org.hibernate.annotations.CreationTimestamp;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "parametros",
-        indexes = @Index(name = "idx_parametro_tipo", columnList = "tipo"),
-        uniqueConstraints = @UniqueConstraint(name = "uk_parametro_tipo_codigo", columnNames = {"tipo", "codigo"}))
+@Table(name = "parametros")
 @Getter
 @Setter
 @NoArgsConstructor
@@ -43,7 +41,6 @@ public class Parametro {
     private String descripcion;
 
     @Column(name = "estado", length = 20, nullable = false)
-    @Builder.Default
     private String estado = "ACTIVO";
 
     @CreationTimestamp

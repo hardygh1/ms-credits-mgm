@@ -20,9 +20,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "cuotas", indexes = {
-        @Index(name = "idx_cuota_prestamo", columnList = "prestamo_id")
-})
+@Table(name = "cuotas")
 @Getter
 @Setter
 @NoArgsConstructor
