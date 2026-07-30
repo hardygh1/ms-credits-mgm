@@ -3,11 +3,6 @@ package com.cibertec.ms_credits.util;
 import com.cibertec.ms_credits.entity.Cliente;
 import org.springframework.data.jpa.domain.Specification;
 
-/**
- * Cada método siempre retorna una Specification válida (nunca null): si el criterio no
- * viene informado, retorna una condición siempre-verdadera (cb.conjunction()) para poder
- * encadenar todos los filtros con .and() sin chequeos de null en el Service.
- */
 public final class ClienteSpecifications {
 
     private ClienteSpecifications() {
