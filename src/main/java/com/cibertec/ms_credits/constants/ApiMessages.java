@@ -67,7 +67,7 @@ public final class ApiMessages {
     public static final String METODO_PAGO_REQUERIDO = "El método de pago es obligatorio";
     public static final String METODO_PAGO_MAX_LENGTH = "El método de pago no debe exceder los 30 caracteres";
 
-    // Parametros (catálogo)
+    // Parametros
     public static final String PARAMETROS_LISTADOS = "Parámetros obtenidos correctamente";
     public static final String PARAMETRO_NO_CONFIGURADO = "El sistema no tiene configurado un parámetro requerido, contacte al administrador";
 
@@ -76,10 +76,10 @@ public final class ApiMessages {
     public static final String COTIZACIONES_LISTADAS = "Cotizaciones obtenidas correctamente";
     public static final String COTIZACION_DETALLE_OBTENIDO = "Detalle de la cotización obtenido correctamente";
     public static final String COTIZACION_APROBADA = "Cotización aprobada correctamente, préstamo generado";
-    public static final String COTIZACION_ELIMINADA = "Cotización eliminada correctamente";
+    public static final String COTIZACION_ELIMINADA = "Cotización anulada correctamente";
     public static final String COTIZACION_NO_ENCONTRADA = "Cotización no encontrada";
     public static final String COTIZACION_YA_APROBADA = "La cotización ya fue aprobada";
-    public static final String COTIZACION_ELIMINADA_NO_APROBAR = "La cotización fue eliminada y no puede aprobarse";
-    public static final String COTIZACION_APROBADA_NO_ELIMINAR = "No se puede eliminar una cotización ya aprobada";
-    public static final String COTIZACION_YA_ELIMINADA = "La cotización ya se encuentra eliminada";
+    public static final String COTIZACION_ELIMINADA_NO_APROBAR = "La cotización fue anulada y no puede aprobarse";
+    public static final String COTIZACION_APROBADA_NO_ELIMINAR = "No se puede anular una cotización ya aprobada";
+    public static final String COTIZACION_YA_ELIMINADA = "La cotización ya se encuentra anulada";
 }
